@@ -219,7 +219,7 @@ var Bamboo = (function (window, document) {
 			}
 
 			// open button
-			if (this.dx === 0 && nx === 0 && this.tgt.is('.open')) {
+			if (this.dx === 0 && nx === 0 && this.tgt.is(openButton)) {
 				this._animateTo(this.options.menuWidth, this.options.menuWidth);
 			}
 
